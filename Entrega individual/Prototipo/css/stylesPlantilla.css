@@ -1,0 +1,67 @@
+
+.plantilla {
+    list-style-type: none;
+    padding: 0;
+}
+
+.categoria {
+    font-weight: bold;
+    margin-top: 15px;
+    color: white;
+}
+
+.jugador {
+    margin-left: 20px;
+    color: white;
+}
+
+.jugadores {
+    border-top: 2px solid white;
+}
+
+#lista {
+    width: 170px;
+    height: 500px;
+    padding: 20px;
+    background: #5353ec;
+    padding: 20px;
+    flex-basis: 200px;
+}
+
+.plantilla1 {
+	height: 450px;
+	width: auto;
+    float: left;
+    margin: 0px 10px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.piePagina{	
+    background-color:  #5564eb;
+    color: #fff;
+    text-align: center;
+    padding: 5px 5px;
+    height: 1rem;
+    background-color: #e2e2e2
+}
+
+.inline {
+    display: flex;
+    flex-direction: row;
+}
+
+#fotos {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 3px solid #5353ec;
+    margin: auto;
+}
+
+h3{
+    color: #5353ec;
+    padding: 20xp ;
+    margin: auto;
+    border-bottom: 2px solid #5353ec;
+}

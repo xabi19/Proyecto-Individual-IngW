@@ -1,0 +1,54 @@
+.linea {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+
+.primero {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #0e0e0e;
+  }
+
+.barrio {
+	height: 120px;
+	width: auto;
+    float: right;
+    margin: 0px 10px;
+}
+
+a {
+    color: cadetblue;
+  }
+
+h3 {
+    background-color: #d7d7d7;
+    font-size: 22px;
+  }
+
+.actividades {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px;
+}
+
+.actividad {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f2f2f2;
+}
+
+.actividad h4 {
+    margin: 0;
+    font-size: 17px;
+}
+
+.actividad p {
+    margin: 5px 0;
+}
+
+#pNoticias{
+    font-size: 15px;
+    margin: 0px 10px;
+}

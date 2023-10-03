@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/stylesSocios.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="img/escudo.jpg" alt="Logo del club">
+        <img class="bandera" src="img/banderaNoruega.png" alt="Bandera Noruega">
+        
+        <h1>Acero Fútbol Club Olabeaga</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="socios.html">Socios del club</a></li>
+                <li><a href="plantilla.html">Plantilla</a></li>
+                <li><a href="calendario.html">Calendario y Clasificación</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Socios del Club</h2>
+        <div class="tabla-container">
+            <table class="tabla">
+                <thead>
+                    <tr>
+                        <th>Años en el Club</th>
+                        <th>Nombre</th>
+                        <th>Edad</th>
+                        <th>País</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Juan Pérez</td>
+                        <td>30</td>
+                        <td>México</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Maria García</td>
+                        <td>25</td>
+                        <td>España</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>John Smith</td>
+                        <td>35</td>
+                        <td>Estados Unidos</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Eneko Smith</td>
+                        <td>56</td>
+                        <td>Estados Unidos</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Eneko Smith</td>
+                        <td>56</td>
+                        <td>Estados Unidos</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h2>Formulario para ser socio</h2>
+        <p>Rellene el siguiente formulario y le enviaremos la información necesaria:</p>
+        <div id="formu">
+            <form>
+                <label class="titulo" for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Xabier" required>
+    
+                <label class="titulo" for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" placeholder="Pérez" required>
+    
+                <label class="titulo" for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label class="titulo" for="telefono">Teléfono:</label>
+                <input type="text" id="telefono" name="telefono">
+    
+                <label class="titulo">Género:</label>    
+                <label for="genero-masculino"><input type="radio" id="genero-masculino" name="genero" value="masculino" required> Masculino</label>
+                
+                <label for="genero-femenino"><input type="radio" id="genero-femenino" name="genero" value="femenino" required> Femenino</label>
+                
+                <label for="genero-otro"><input type="radio" id="genero-otro" name="genero" value="otro" required> Otro</label>
+                
+                
+    
+                <label class="titulo" for="nacionalidad">Nacionalidad:</label>
+                <select id="nacionalidad" name="nacionalidad" required>
+                    <option value="" disabled>Seleccionar uno</option>
+                    <option>Alemania</option>
+                    <option selected>España</option>
+                    <option>Fracia</option>
+                    <option>Italia</option>
+                    <option>Austria</option>
+                    <option>Bélgica</option>
+                    <option>Suiza</option>
+                    <option>Croacia</option>
+                    <option>Grecia</option>
+                    <option>Otro</option>
+                </select>
+    
+                <label class="titulo" for="fecha_nacimiento">Fecha de Nacimiento:</label>
+                <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+    
+                <label class="titulo" for="direccion">Dirección:</label>
+                <input type="text" id="direccion" name="direccion">
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Acero Fútbol Club Olabeaga </p>
+        <p>Tel.: 11111111</p>
+        <p>Email: a@gmail.com</p>
+    </footer>
+</body>
+
+</html>
